@@ -10,7 +10,6 @@ import java.util.List;
 
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class BlueGeometryDto extends BaseGeometryDto {

@@ -1,1 +1,8 @@
-spring.application.name=grapher
+spring:
+  application:
+    name: grapher
+
+server:
+  port: 8090
+
+
