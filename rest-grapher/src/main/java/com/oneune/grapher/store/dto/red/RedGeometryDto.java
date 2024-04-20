@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class RedGeometryDto extends BaseGeometryDto {
