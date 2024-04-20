@@ -1,6 +1,8 @@
 spring:
   application:
-      name: grapher
+    name: grapher
 
 server:
   port: 8090
+
+
