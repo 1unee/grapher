@@ -1,16 +1,15 @@
 package com.oneune.grapher.store.dto.red;
 
+import com.oneune.grapher.store.dto.base.BaseGeometryDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class RedGeometryDto {
-    private String type;
-    private List<List<List<Double>>> coordinates;
+@EqualsAndHashCode(callSuper = true)
+public class RedGeometryDto extends BaseGeometryDto {
 }
