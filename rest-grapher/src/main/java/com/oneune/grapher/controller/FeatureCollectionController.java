@@ -18,6 +18,7 @@ public class FeatureCollectionController {
     private final RedFeatureCollectionParsingService redFeatureCollectionParsingService;
     private final BlueFeatureCollectionParsingService blueFeatureCollectionParsingService;
 
+
     @PostMapping("red/{filename}")
     public void parseRedFeaturesCollection(@PathVariable String filename) {
         RedFeatureCollectionDto redFeatureCollection =
