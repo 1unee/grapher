@@ -1,4 +1,4 @@
-package com.oneune.graph.demo;
+package com.oneune.grapher;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
