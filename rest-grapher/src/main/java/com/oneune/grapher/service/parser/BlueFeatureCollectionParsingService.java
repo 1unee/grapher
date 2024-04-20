@@ -15,7 +15,7 @@ import java.io.File;
 public class BlueFeatureCollectionParsingService {
     private final ObjectMapper objectMapper;
 
-    public BlueFeatureCollectionDto parseJsonFile(@NonNull String filePath) {
+    public BlueFeatureCollectionDto parseGeoJsonFile(@NonNull String filePath) {
         try {
             File file = new File(filePath);
             return objectMapper.readValue(file, BlueFeatureCollectionDto.class);
